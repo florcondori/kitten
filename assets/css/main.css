@@ -1,0 +1,27 @@
+body{
+	background-image: url("../image/Copia de Landscape.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	display: flex;
+	justify-content: center;
+
+}
+
+@media (max-width: 850px){
+	body{
+		background-image: url("../image/Copia de dawn.png");
+	}
+		
+}
+
+@media (max-width: 450px){
+	body{
+		background-image: url("../image/Copia de maxresdefault.jpg");
+	}
+		
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
