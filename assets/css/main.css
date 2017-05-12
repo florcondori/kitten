@@ -1,4 +1,10 @@
-body{
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container{
 	background-image: url("../image/Copia de Landscape.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -8,18 +14,18 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: flex-end;
-	height: 642px;
+	height: 100vh;
 }
 
 @media (max-width: 850px){
-	body{
+	.container{
 		background-image: url("../image/Copia de dawn.png");
 	}
 		
 }
 
 @media (max-width: 450px){
-	body{
+	.container{
 		background-image: url("../image/Copia de maxresdefault.jpg");
 	}
 		
